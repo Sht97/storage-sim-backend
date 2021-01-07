@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Cheetah",
+    "capacity": 300,
+    "rpm": 15000,
+    "average_seek": 4,
+    "max_transfer": 125,
+    "platters": 16,
+    "cache": 16
+  },
+  {
+    "name": "Barracuda",
+    "capacity": 1000,
+    "rpm": 7200,
+    "average_seek": 9,
+    "max_transfer": 105,
+    "platters": 16,
+    "cache": 16
+  }
+]
