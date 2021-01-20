@@ -12,4 +12,4 @@ class Disk:
 
         self.secuential={"Ttransfer":round(100000/base.max_transfer,4)}
         self.secuential['Tio']=round(self.Trotation+self.Tseek+self.secuential['Ttransfer'],4)
-        self.secuential['Rio']=round(100*1024/self.secuential['Tio'],3)
+        self.secuential['Rio']=round(100*1000/self.secuential['Tio'],3)
